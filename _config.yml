@@ -49,16 +49,15 @@ content:
         title: Covid Cases Tracker
         link: github.com/sproogen
         # link_text: Project Website
-        quote: >
           
         description: | # this will include new lines to allow paragraphs
           This was one of my first web applications that I developed using the Spring Framework. I wanted to create an app that tracked Covid cases in multiple countries around the world. Using a dataset found on Github, I developed this app that would make requests to the repo when needed to get the most recent Covid cases, then display it on the website.
+          
           I was able to learn a lot of how to make HTTP requests using Java's HTTP Client API. To display the information, I utiized Thymeleaf pages with HTML/CSS and javascript.
       - layout: top-middle
         title: Covid Cases Tracker
         link: github.com/sproogen
         # link_text: Project Website
-        quote: >
           
         description: | # this will include new lines to allow paragraphs
           This was one of my first web applications that I developed using the Spring Framework. I wanted to create an app that tracked Covid cases in multiple countries around the world. Using a dataset found on Github, I developed this app that would make requests to the repo when needed to get the most recent Covid cases, then display it on the website.
