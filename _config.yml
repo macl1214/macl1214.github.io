@@ -52,7 +52,7 @@ content:
           
         description: | # this will include new lines to allow paragraphs
           This was one of my first web applications that I developed using the Spring Framework. I wanted to create an app that tracked Covid cases in multiple countries around the world. Using a dataset found on Github, I developed this app that would make requests to the repo when needed to get the most recent Covid cases, then display it on the website.
-          
+
           I was able to learn a lot of how to make HTTP requests using Java's HTTP Client API. To display the information, I utiized Thymeleaf pages with HTML/CSS and javascript.
       - layout: top-middle
         title: Covid Cases Tracker
@@ -65,17 +65,25 @@ content:
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
-    content:
+    content:      
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
+        title: GDIT
         # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        sub_title: Call Center Supervisor
+        caption: October 2017 - December 2018
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+          Working as a supervisor at a disaster assistance helpine was my first leadership position in the professional setting. I led a team of 10 agents, frequently monitoring their calls and coaching them to help improve the assistance provided to the survivors. At times, I even stepped in on the call to provide further assistance, or to de-escalate the situtaitons when needed.
+
+      - layout: left
+        title: Koons Tysons Toyota
+        # link_text: boringcompany.com
+        sub_title: Car Salesman
+        caption: May 2015 - April 2017
+        description: | # this will include new lines to allow paragraphs
+          'Communication is the key success!' Working as a car salesman not only taught me how to hold a conversation with others, but how to effectively communicate. Listening to what the client was saying was the most important thing in the car business. I was able to improve on this skill with each client, and eventually, was able to see patterns with their wants and needs.
+
+          This job really gave me the motivation to keep on working on myself.         
+
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
