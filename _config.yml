@@ -55,13 +55,14 @@ content:
 
           I was able to learn a lot of how to make HTTP requests using Java's HTTP Client API. To display the information, I utiized Thymeleaf pages with HTML/CSS and javascript.
       - layout: top-middle
-        title: Covid Cases Tracker
+        title: Student Management System
         link: github.com/sproogen
         # link_text: Project Website
           
         description: | # this will include new lines to allow paragraphs
-          This was one of my first web applications that I developed using the Spring Framework. I wanted to create an app that tracked Covid cases in multiple countries around the world. Using a dataset found on Github, I developed this app that would make requests to the repo when needed to get the most recent Covid cases, then display it on the website.
-          I was able to learn a lot of how to make HTTP requests using Java's HTTP Client API. To display the information, I utiized Thymeleaf pages with HTML/CSS and javascript.
+          All universities have a self-service portal that gives their members the ability to log in and do various tasks. Because of this, I created my own to see all the details that go into making one. To create the app, I decided to use the service-repository design pattern as a way to handle separation of concerns. I designed the service layer to gather the data from the backend and convert it into DTOs to use in the frontend. 
+
+          I used Java (Spring Framework) to develop the backend of the app, and used HTML/CSS and Javascript for the frontend. 
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
