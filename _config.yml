@@ -60,9 +60,9 @@ content:
         # link_text: Project Website
           
         description: | # this will include new lines to allow paragraphs
-          All universities have a self-service portal that gives their members the ability to log in and do various tasks. Because of this, I created my own to see all the details that go into making one. To create the app, I decided to use the service-repository design pattern as a way to handle separation of concerns. I designed the service layer to gather the data from the backend and convert it into DTOs to use in the frontend. 
+          All universities have a self-service portal that gives their members the ability to log in and do various tasks. Because of this, I created my own to see all the details that go into making one. I focused on couse management and registration, giving the students the ablity to add courses and teachers to choose which courses to teach. To ensure that only registered people are able to access the app, students/staff that created an account were not given access until an admin went online and approved the user. 
 
-          I used Java (Spring Framework) to develop the backend of the app, and used HTML/CSS and Javascript for the frontend. 
+          To create the app, I decided to use the service-repository design pattern as a way to handle separation of concerns. I used Java (Spring Framework) to develop the backend of the app, and used HTML/CSS and Javascript for the frontend. 
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -85,6 +85,15 @@ content:
 
           This job really gave me the motivation to keep on working on myself.         
 
+      - layout: left
+        title: Mathnasium
+        # link_text: boringcompany.com
+        sub_title: Math Tutor
+        caption: December 2013 - May 2016
+        description: | # this will include new lines to allow paragraphs
+          Math has always been one my favorite subjects and I always really enjoyed teaching it to others. I saw the opportunity to teach others as a challenge for myself, because it helped me think of the material from a different angle since most of the time what helped me understand it was not helpful for others. What I found most rewarding was it finally clicked for the students. 
+
+          I learned a lot on how to think from other people's perspective.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
